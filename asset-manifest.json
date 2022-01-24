@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/react-carpark-lots/static/css/main.31d6cfe0.css",
+    "main.js": "/react-carpark-lots/static/js/main.ac18fdca.js",
+    "index.html": "/react-carpark-lots/index.html",
+    "main.ac18fdca.js.map": "/react-carpark-lots/static/js/main.ac18fdca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.ac18fdca.js"
+  ]
+}
