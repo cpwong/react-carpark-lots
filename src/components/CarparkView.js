@@ -23,7 +23,7 @@ export default function CarparkView(props) {
     <div className='CarparkView'>
       <label>Search Address</label>
       <div className='grouped'>
-        <input type='text' placeholder='Type here  to start search' value={filterStr} onChange={handleInput}/>
+        <input type='text' placeholder='Type here to start search' value={filterStr} onChange={handleInput}/>
         <button className='button' onClick={handleClear}>Clear</button>
       </div>
       <table className='striped'>

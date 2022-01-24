@@ -89,9 +89,21 @@ function App() {
       <h1>React Test Deployment</h1>
       <hr />
       <h2>HDB Carpark Availability</h2>
-      <button type="submit" onClick={handleRefresh}>Refresh</button>
-      { isLoading ? <div className='pull-right'>Loading data: <progress /></div> : null }
-      <p />
+      <h5>Singapore Open Data Licence (v1.0)</h5>
+      <div>
+        <details>
+          <blockquote>
+          Contains information from <a href="https://data.gov.sg/dataset/hdb-carpark-information">HDB Carpark Information</a> and <a href="https://data.gov.sg/dataset/carpark-availability">Carpark Availability</a> data sets accessed from this <a href="https://api.data.gov.sg">API</a> which is made available under the terms of the <a href="https://data.gov.sg/open-data-licence">Singapore Open Data Licence version 1.0</a>.
+          </blockquote>
+        </details>
+      </div>
+      <br />
+      <div>
+        <button type="submit" onClick={handleRefresh}>Refresh</button>
+        { isLoading ? <div className='pull-right'>Loading data: <progress /></div> : null }
+
+      </div>
+      <br />
       <CarparkView carparkList={carparkList} />
     </div>
   );
