@@ -86,7 +86,7 @@ function App() {
   
   return (
     <div className="App container">
-      <h1>Assignment 2.12: React and Axios</h1>
+      <h1>React Test Deployment</h1>
       <hr />
       <h2>HDB Carpark Availability</h2>
       <button type="submit" onClick={handleRefresh}>Refresh</button>
